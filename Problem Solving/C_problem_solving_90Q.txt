@@ -1,0 +1,129 @@
+Q2 .**Add Two Numbers**  
+   - Task: Write a function that takes two numbers and returns their sum.
+
+
+int a = 5;
+int b = 5;
+int main() {
+
+printf("%d",a+b);
+
+    return 0;
+}
+
+
+Q3 **Find the Largest Number**  
+   - Task: Write a function that takes three numbers and returns the largest.  
+
+
+int a = 55555;
+int b = 155;
+int c = 155;
+
+int main() {
+
+if((a>b) && (a>c)){
+    printf("A");
+}
+else if((b>a) && (b>c)){
+    printf("B");
+}
+else if((c>a) && (c>b)){
+    printf("%d\n",c);
+}
+else if((a==b) && (a==c)){
+    printf("=");
+}
+else if((a==b) && (a==c)){
+    printf("=");
+}
+else if((a==b) || (a==c) || (b==a) || (b==c)){
+    printf("Two num are eq");
+}
+    return 0;
+}
+
+
+Q4.**Check if a Number is Even or Odd**  
+   - Task: Write a function that checks if a number is even or odd.  
+
+
+int check = 5;
+
+int main(){
+    if(check%2==0){
+        printf("Even");
+    }
+    else{printf("odd");
+        
+    }
+    
+    
+}
+
+
+Q5. **Calculate the Factorial of a Number**  
+
+int fact = 5;
+int result = 1;
+int main(){
+    for(int i =1;i<fact;i++){
+        result = result + result*i;
+    }
+    
+    printf("%d",result);
+    
+}
+
+
+
+Q6. **Reverse a String**  
+   - Task: Write a function that takes a string and returns it reversed.  
+
+
+#include <stdio.h>
+#include <string.h>
+    
+    int main(){
+        
+char myText[] = "Hello";
+int len = strlen(myText);
+for(int i = len -1;i>=0;i--){
+    printf("%c", myText[i]);
+}
+
+    }
+
+
+Q7. **Check for Palindrome**  
+   - Task: Write a function that checks if a given string is a palindrome.  
+
+
+
+
+
+
+
+
+
+Q8. **Find the Minimum Number in an Array**  
+   - Task: Write a function that takes an array and returns the smallest number.  
+
+
+#include <stdio.h>
+#include <string.h>
+
+
+int main(){
+char arr[] = {1,3,5,7,99};
+int len = strlen(arr);
+int max = 0;
+
+for(int i = 0;i<len;i++){
+    if(max<arr[i]){
+        max = arr[i];
+    }
+}
+
+printf("%d",max);
+}
