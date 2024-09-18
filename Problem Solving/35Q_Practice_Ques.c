@@ -58,14 +58,14 @@
 
 
 //int main(){
-//	int num1;
+//	int num1,i;
 //	printf("Enter Number_1:");
 //	scanf("%d",&num1);
 //
 //int fact = 1;
-//int i;
-//for(i=1;i<num1;i++){
-//	fact = fact + fact*i;
+
+//for(i=1;i<=num1;i++){
+//	fact =fact*i;
 //}
 //printf("%d",fact);
 //	return 0;
