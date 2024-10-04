@@ -119,7 +119,7 @@ int main(){
 	
 	
     // Read the content and print it
-   while(fgets(str, 100, var)) {
+   while(fgets(str, 100, var) != NULL) {
    printf("%s", str);
    }
 
@@ -176,7 +176,7 @@ char string[100];
 if(var != NULL){
 	
 	  // Read the content and print it
-	while(fgets(string,100,var)){
+	while(fgets(string,100,var != NULL)){
 		printf("%s",string);
 	}
 }
@@ -188,8 +188,49 @@ else{
 	
 // Close the file
 fclose(var);
+
 }
 
+
+
+// C Program to count the Number of Characters in a Text File 
+
+
+int main(){
+	
+FILE *var;
+
+// Open a file in read mode
+var = fopen("filename.txt","r");
+char c;
+int count = 0;
+// Store the content of the file
+char string[100];
+
+// If the file exist
+if(var != NULL){
+	
+	for (c = getc(var); c != EOF; c = getc(var)) {
+		        // Increment count for this character 
+		        // EOF : End of Flie
+        count = count + 1;
+	}
+ }
+
+
+// If the file does not exist
+else{
+	printf("Not able to open the file");
+}
+	
+// Close the file
+fclose(var);
+
+ // Print the count of characters 
+    printf("The file has %d characters\n ",count); 
+  
+    return 0; 
+}
 
 
 
