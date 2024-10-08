@@ -67,13 +67,13 @@ fclose(var);
 }
 
 //Note: Just like with the w mode; if the file does not exist,
-//the a mode will create a new file with the "appended" content.
+//the "a" mode will create a new file with the "appended" content.
 
 
 
 //Read a File
 
-//To read from a file, you can use the r mode
+//To read from a file, you can use the "r" mode
 
 //1) We need to create a string that should be big enough to store the content of the file.
 //2) In order to read the content of filename.txt, we can use the fgets() function.
@@ -145,7 +145,7 @@ int main(){
 	var = fopen("lorem.txt","r");
 	
 	// Print some text if the file does not exist
-    if(var == NULL) {
+    if( var == NULL ) {
     printf("Not able to open the file");
     }
 	
@@ -175,10 +175,11 @@ char string[100];
 // If the file exist
 if(var != NULL){
 	
-	  // Read the content and print it
-	while(fgets(string,100,var != NULL)){
-		printf("%s",string);
+    // Read the content and print it
+	while(fgets(string,100,var )!= NULL){
+	printf("%s",string);
 	}
+	
 }
 
 // If the file does not exist

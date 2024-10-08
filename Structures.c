@@ -2,6 +2,10 @@
 #include <string.h>
 #include <stdlib.h>
 
+//A structure allows you to store multiple values of different data types together.
+//Each member of the structure has its own memory space
+
+
 struct myStructure {
   int myNum;
   char myLetter;

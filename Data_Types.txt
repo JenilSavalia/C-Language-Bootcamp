@@ -1,0 +1,9 @@
+double
+float
+int
+char
+long
+long long
+Boolean
+
+c language W3 school fullllllllllll reference
