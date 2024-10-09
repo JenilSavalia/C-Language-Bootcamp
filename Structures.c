@@ -4,6 +4,7 @@
 
 //A structure allows you to store multiple values of different data types together.
 //Each member of the structure has its own memory space
+//Unlike an array, a structure can contain many different data types (int, float, char, etc.)
 
 
 struct myStructure {
@@ -75,8 +76,6 @@ int main() {
 //What About Strings in Structures?
 
 
-
-
 struct myStructure {
   int myNum;
   char myLetter;
@@ -94,3 +93,5 @@ int main() {
 
   return 0;
 }
+
+
