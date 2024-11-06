@@ -1,9 +1,19 @@
 //UNION
 
+https://www.tutorialspoint.com/cprogramming/c_unions.htm
+
 //In C, a union is a special data type that allows you to store different types of data in the same memory location.
 
 //Unlike a structure (struct), where each member has its own memory space, in a union,
 //all members share the same memory space, meaning only one member can hold a value at a time.
+
+
+Structure V/s Union 
+
+//The most significant difference between a structure and a union 
+//is the way they store their data. A structure stores each member in separate memory locations, 
+//whereas a union stores all its members in the same memory location.
+
 
 
 union union_name {

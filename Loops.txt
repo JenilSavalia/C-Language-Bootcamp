@@ -1,0 +1,45 @@
+1. break Statement:
+The break statement exits a loop (or a switch statement) entirely. Once break is encountered, control immediately moves to the next statement after the loop.
+
+
+2. continue Statement:
+The continue statement skips the current iteration of the loop and moves directly to the next iteration. It doesn’t exit the loop but bypasses any code following the continue statement for that iteration.
+
+
+
+
+for loop --------------------------------
+
+for(initalisation,condition,increment){
+
+//code
+
+}
+
+
+
+while loop -----------------------------
+
+
+initialiser
+while(condition){
+
+code to be executed
+
+increment
+
+}
+
+
+
+do while loop --------------------------
+
+initialiser
+do{
+
+//code 
+increment
+
+}
+while(condition)
+
