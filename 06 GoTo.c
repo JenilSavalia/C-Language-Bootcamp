@@ -3,7 +3,10 @@
 #include <string.h>
 
 
-// function to check even or not
+//The goto statement in C provides an unconditional jump to another part of the program. 
+
+
+//Factorial
 int fact(int num){
     int facto = 1;
     if(num==0){

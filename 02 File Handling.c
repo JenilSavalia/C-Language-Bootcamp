@@ -53,7 +53,6 @@ fclose(var);
 
 
 int main(){
-	
 FILE *var;
 
 // Open a file in append mode

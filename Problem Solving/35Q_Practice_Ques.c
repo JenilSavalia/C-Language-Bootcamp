@@ -228,47 +228,47 @@ int main(){
 
 //14. Simple Calculator
 
-//int main(){
-//	int num1,num2;
-//	char oper;
-//	printf("Enter Number_1:");
-//	scanf("%d",&num1);
-//	printf("Enter Number_2:");
-//	scanf("%d",&num2);
-//	printf("Enter Operation (+, -, *, /) :");
-//	scanf(" %c",&oper);
-//	if(oper=='+'){
-//		printf("%d",num1+num2);
-//	}
-//	else if(oper=='-'){
-//		printf("%d",num1-num2);
-//	}
-//	else if(oper=='*'){
-//		printf("%d",num1*num2);
-//	}
-//	else{
-//		printf("%d",num1/num2);
-//	}
-//	return 0;
-//}
+int main(){
+	int num1,num2;
+	char oper;
+	printf("Enter Number_1:");
+	scanf("%d",&num1);
+	printf("Enter Number_2:");
+	scanf("%d",&num2);
+	printf("Enter Operation (+, -, *, /) :");
+	scanf(" %c",&oper);
+	if(oper=='+'){
+		printf("%d",num1+num2);
+	}
+	else if(oper=='-'){
+		printf("%d",num1-num2);
+	}
+	else if(oper=='*'){
+		printf("%d",num1*num2);
+	}
+	else{
+		printf("%d",num1/num2);
+	}
+	return 0;
+}
 
 
 //15. Sum of Array Elements
 
-//int main(){
-//	
-//	int myarray[] = {4,3,2,1,7,8,6};
-//	int sum = 0;
-//	int length = sizeof(myarray) / sizeof(myarray[0]);
-//
-//	int i = 1;
-//	for(i = 0;i<length;i++){
-//		sum = sum + myarray[i];
-//	}
-//	printf("%d\n",sum);
-//	
-//	return 0;
-//}
+int main(){
+	
+	int myarray[] = {4,3,2,1,7,8,6};
+	int sum = 0;
+	int length = sizeof(myarray) / sizeof(myarray[0]);
+
+	int i = 1;
+	for(i = 0;i<length;i++){
+		sum = sum + myarray[i];
+	}
+	printf("%d\n",sum);
+	
+	return 0;
+}
 
 
 //16. Largest Element in an Array
@@ -300,7 +300,7 @@ int main(){
 	int count = 0;
 	int i = 0;
 	while(str[i]!= '\0'){
-		count = count + 1;
+		count++;
 		i++;
 	}
 	printf("%d",count);
@@ -383,15 +383,15 @@ int main(){
 
 //21. ASCII Value of a Character
 
-//int main(){
-//	char str;
-//	printf("Enter Char: ");
-//	scanf("%c",&str);
-//    // %d displays the integer value of a character
-//    // %c displays the actual character
-//    printf("ASCII value of %c = %d", str,  str);
-//return 0;
-//}	
+int main(){
+	char str;
+	printf("Enter Char: ");
+	scanf("%c",&str);
+    // %d displays the integer value of a character
+    // %c displays the actual character
+    printf("ASCII value of %c = %d", str,  str);
+return 0;
+}	
 
 
 //24. Sum of First N Natural Numbers
@@ -502,20 +502,20 @@ int main(){
 
 // 33. Calculate the Average of Numbers in an Array
 
-//int main(){
-//	
-//	int myarray[] = {4,3,2,1,7,8,6,4};
-//	int sum = 0;
-//	int length = sizeof(myarray) / sizeof(myarray[0]);
-//
-//	int i = 1;
-//	for(i = 0;i<length;i++){
-//		sum = sum + myarray[i];
-//	}
-//float avg = (float)sum / length;
-//	printf("%.1f\n",avg);
-//	return 0;
-//}
+int main(){
+	
+	int myarray[] = {4,3,2,1,7,8,6,4};
+	int sum = 0;
+	int length = sizeof(myarray) / sizeof(myarray[0]);
+
+	int i = 1;
+	for(i = 0;i<length;i++){
+		sum = sum + myarray[i];
+	}
+float avg = (float)sum / length;
+	printf("%.1f\n",avg);
+	return 0;
+}
 
 
 //34. Find the Second Largest Number in an Array
